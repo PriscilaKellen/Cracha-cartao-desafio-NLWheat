@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+}
+
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+
+  background: url('../images/tecnologia.png') center/cover;
+  background-color: #121214;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  --black: hsl(240, 6%, 13%);
+  --ciano: #c4f1f9;
+
+  display: grid;
+  place-items: center;
+}
+
+.atropos-rotate {
+  width: 358px;
+  height: 540px;
+  margin-top: -20px;
+  border-radius: 1rem;
+}
+
+main {
+  width: 22.375rem;
+  height: 33.75rem;
+  border-radius: 3rem;
+
+  transform-style: preserve-3d;
+  transform: translateZ(0);
+
+  background-color: rgba(126, 126, 126, 0.212);
+  backdrop-filter: saturate(180%) blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.411);
+
+  margin-top: -50px;
+}
+
+.atropos-rotate {
+  backdrop-filter: saturate(180%) blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+.container {
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: var(--ciano);
+}
+
+body span {
+  margin-top: -100px;
+  z-index: 100;
+}
+
+body span:nth-child(2) {
+  margin-top: -330px;
+  z-index: 100;
+}
+
+.container .avatar {
+  padding-top: 75px;
+}
+
+.avatar {
+  width: 10rem;
+  margin: 0 auto 0;
+
+  position: relative;
+}
+
+.avatar span {
+  width: 1rem;
+  position: absolute;
+  top: 150px;
+  z-index: 1;
+}
+
+.avatar > img {
+  width: 10rem;
+  height: 11.5rem;
+  object-fit: cover;
+
+  clip-path: circle(65%);
+}
+
+h1 {
+  font-size: 1.5rem;
+
+  margin-top: 1.5rem;
+}
+
+a {
+  color: var(--ciano);
+  text-decoration: none;
+
+  margin-top: 0.25rem;
+
+  display: flex;
+  gap: 0.75rem;
+
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin-top: 3rem;
+}
+
+ul {
+  margin-top: 2rem;
+
+  list-style: none;
+  padding: 0;
+
+  display: flex;
+  gap: 0.5rem;
+
+  justify-content: center;
+}
